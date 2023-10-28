@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 export default function Posts({posts}){
     return(
-        <div style={{flex:1}}>
+        <div style={{flex:1,width:'50%'}}>
         {posts.map((post) => (
                 <div
                     key={post.id}
